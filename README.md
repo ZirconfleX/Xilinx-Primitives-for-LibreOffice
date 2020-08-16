@@ -53,25 +53,39 @@ The intention for creating this gallery is to allow people using LibreOffice too
       - In LibreOffice, [Tools] - [Options] select the *Gallery* line in the right pane.
       - Select the [Edit] button.
       - Click [Add] and browse/select the directory created to host the Xilinx library.
-      - Click[OK]
+      - Click [OK]
       - Click [OK]
 10. In the main LibreOffice Draw top menu, click [View] and in the drop down menu tick [Gallery].
 11. In the galleries pane that opens at the right side of the screen slide down, a new **Xilinx Primitives** item could already be listed.
 12. If there is no **Xilinx Primitives** selection in the galleries menu, then:
     1. Click [New Theme]
     2. Click the [General] tab on the top of [Properties of New Theme] popup.
+<<<<<<< HEAD
         <img src="Figures/LibreOffice_2.png" alt="LibreOffice_2" style="zoom:67%;" /> 
     3. Replace "New Theme" by "Xilinx Primitives"
     4. Click the [Files] tab on the top of [Properties of New Theme] popup.
     5. Now click: [Find Files]
         <img src="Figures/LibreOffice_3.png" alt="LibreOffice_3" style="zoom:67%;" /> 
+=======
+      <img src="Figures/LibreOffice_2.png" alt="LibreOffice_2" style="zoom:67%;" />
+    3. Replace "New Theme" by "Xilinx Primitives"
+    4. Click the [Files] tab on the top of [Properties of New Theme] popup.
+    5. Now click: [Find Files].
+      <img src="Figures/LibreOffice_3.png" alt="LibreOffice_3" style="zoom:67%;" />
+>>>>>>> master
     6. The new popup should display the galleries directory and show the added directory "Xilinx Primitives SvgFiles".
     7. Double click the that directory and click [OK].
     8. In the left pane of the [Properties of New Theme] popup all files of all sub-directories in that added directory should be listed.
     9. Click the [Add All] button.
+<<<<<<< HEAD
         <img src="Figures/LibreOffice_4.png" alt="LibreOffice_4" style="zoom:67%;" /> 
     10. Click [OK]
     11. Now there should be a "Xilinx Primitives" theme in the gallery pane for drawing.
+=======
+      <img src="Figures/LibreOffice_4.png" alt="LibreOffice_4" style="zoom:67%;" />
+    11. Click [OK]
+    12. Now there should be a "Xilinx Primitives" theme in the gallery pane for drawing.
+>>>>>>> master
 13. From here all Xilinx primitives can be selected and dragged onto a schematic.
 14. To be complete the addition of this drawing library do:
     1. Go to: /home/<user>/.config/libreoffice/4/user/gallery
@@ -82,9 +96,15 @@ The intention for creating this gallery is to allow people using LibreOffice too
 #### REMARK:
 
 - As you will find out, The listing of the component primitives in the gallery theme is not alphabetic!
+<<<<<<< HEAD
     Below the `/home/<user>/.config/libreoffice/4/user/gallery/Xilinx Primitives SvgFiles` directory sub-directories are listed.
     The components listed in the gallery theme are listed as directory groups.
     <img src="Figures/LibreOffice_5.png" alt="LibreOffice_5" style="zoom:67%;" /> 
+=======
+Below the `/home/<user>/.config/libreoffice/4/user/gallery/Xilinx Primitives SvgFiles` directory sub-directories are listed.
+The components listed in the gallery theme are listed as directory groups.
+<img src="Figures/LibreOffice_5.png" alt="LibreOffice_5" style="zoom:67%;" />
+>>>>>>> master
 
 - If another setup is wanted, create for each sub-directory a new theme.
     Like `Xlnx Prim ClockBuffer` and `Xlnx Prim ClockManagers` and ...
