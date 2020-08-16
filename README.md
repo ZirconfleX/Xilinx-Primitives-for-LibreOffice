@@ -84,7 +84,7 @@ The intention for creating this gallery is to allow people using LibreOffice too
 - As you will find out, The listing of the component primitives in the gallery theme is not alphabetic!
 Below the `/home/<user>/.config/libreoffice/4/user/gallery/Xilinx Primitives SvgFiles` directory sub-directories are listed.
 The components listed in the gallery theme are listed as directory groups.
-      <img src="Figures/LibreOffice_5.png" alt="LibreOffice_5" style="zoom:67%;" />
+<img src="Figures/LibreOffice_5.png" alt="LibreOffice_5" style="zoom:67%;" />
 
 - If another setup is wanted, create for each sub-directory a new theme.
     Like `Xlnx Prim ClockBuffer` and `Xlnx Prim ClockManagers` and ...
